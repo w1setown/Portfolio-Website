@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Datatekniker - Gabriel V.S. Ganderup</title>
+    <title>Portfolio - [Your Name]</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- External CSS and Icon Libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/stylesheets/style.css">
     <link rel="stylesheet" href="/assets/stylesheets/mobilestyle.css">
-    <script src="https://kit.fontawesome.com/306a80a1fe.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/[YOUR-KIT-CODE].js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Navigation -->
     <header>
         <section id="TOPNAV">
             <div class="topnav">
                 <a class="logo" onclick="showSection('TITLE')"><i class='bx bxs-data'></i></a>
                 <div id="myLinks" class="nav-links">
-                    <li><a onclick="showSection('OM')">Om mig</a></li>
-                    <li><a onclick="showSection('PROJEKTER')">Projekter</a></li>
-                    <li><a onclick="showSection('ERFARING')">Erfaring</a></li>
-                    <li><a onclick="showSection('EVNER')">Tekniske Evner</a></li>
+                    <!-- Customize your navigation links here -->
+                    <li><a onclick="showSection('ABOUT')">About</a></li>
+                    <li><a onclick="showSection('PROJECTS')">Projects</a></li>
+                    <li><a onclick="showSection('EXPERIENCE')">Experience</a></li>
+                    <li><a onclick="showSection('SKILLS')">Skills</a></li>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
                     <i class="fa fa-bars"></i>
@@ -32,299 +35,108 @@
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section id="TITLE" class="section active">
             <div class="hero">
-                <h1>Gabriel Visby Søgaard Ganderup</h1>
-                <h2>Datateknikerelev m. speciale i programmering</h2>
+                <h1>[Your Full Name]</h1>
+                <h2>[Your Title/Role]</h2>
             </div>
         </section>
 
-        <section id="OM" class="section">
+        <!-- About Section -->
+        <section id="ABOUT" class="section">
             <div class="titel">
-                <h1>Om mig</h1>
+                <h1>About Me</h1>
             </div>
             <div class="beskrivelse">
                 <p>
-                    Jeg er en ung mand, der i øjeblikket studerer data- og kommunikationsuddannelsen på Syddansk
-                    Erhvervsskole. Oprindeligt kommer jeg fra Fyn, men jeg flyttede til Kolding i 2023 for at forfølge
-                    min uddannelse. 
-                    <br><br>
-                    Min plan var at blive datatekniker med speciale i infrastruktur, men under mit
-                    grundforløb opdagede jeg en stor interesse for programmering, som jeg fandt både spændende og
-                    udfordrende.
-                    <br><br>
-                    Siden oktober 2023 har jeg arbejdet med flere programmeringssprog og teknologier, herunder Godot og
-                    GDScript, C#, HTML, CSS, JS, PHP og SQL. I løbet af mit hovedforløb er mine færdigheder inden for
-                    databaser blevet betydeligt bedre, og jeg er i gang med at lære PHP.
-                    <br><br>
-                    I min fritid spiller jeg volleyball i KVK og er også frivillig hos SIND Ungdom. Desuden bruger jeg
-                    tid på spiludvikling som en hobby, hvor jeg kan udforske min passion for programmering yderligere.
+                    [Your personal description here]
                 </p>
-                <img src="assets/images/Screenshot 2025-06-24 152122.png" alt="Gabriel">
+                <img src="assets/images/your-photo.jpg" alt="Profile Photo">
             </div>
         </section>
 
-        <section id="PROJEKTER" class="section">
+        <!-- Projects Section -->
+        <section id="PROJECTS" class="section">
             <div class="titel">
-                <h2>Projekter</h2>
+                <h2>Projects</h2>
             </div>
             <div class="projekter">
+                <!-- Project Template -->
                 <div class="opgave">
-                    <a href="https://github.com/w1setown/GF2-Eksamen" target="blank" rel="noopener noreferrer">
+                    <a href="[PROJECT-LINK]" target="blank" rel="noopener noreferrer">
                         <i class='bx bxs-folder'></i>
-                        <h3>Grundforløb 2 - Eksamen</h3>
-                        <p class="resume">Min eksamens opgave for grundforløb 2. Et simpel ordresystem lavet i python
-                            for butikken FlipTheBurger.</p>
-                        <p class="teknologi">Teknologi: Python</p>
+                        <h3>[Project Title]</h3>
+                        <p class="resume">[Project Description]</p>
+                        <p class="teknologi">[Technologies Used]</p>
                     </a>
                 </div>
-                <div class="opgave">
-                    <a href="https://w1setown.itch.io/rokkr" target="blank" rel="noopener noreferrer">
-                        <i class='bx bxs-folder'></i>
-                        <h3>Rokkr - GameDev</h3>
-                        <p class="resume">I juli 2024 deltog jeg i GameJam oprettet af PirateSoftware med formålet at
-                            udviklet et videospil.</p>
-                        <p class="teknologi">Godot, GDScript, Clip Studio Paint EX, Logic & Max MSP</p>
-                    </a>
-                </div>
-                <div class="opgave">
-                    <a href="https://github.com/w1setown/Hyppighed-skostr" target="blank" rel="noopener noreferrer">
-                        <i class='bx bxs-folder'></i>
-                        <h3>SkoStr. Hyppighed - Database</h3>
-                        <p class="resume">Formålet med opgaven var at oprette en database, der skulle bruges til at
-                            optælle statistik for sko størrelser.</p>
-                        <p class="teknologi">MySQL, XAMMP, Google Charts, PHP & HTML</p>
-                    </a>
-                </div>
-                <div class="opgave">
-                    <a href="https://github.com/w1setown/CNN-Digit-Recognizer" target="blank" rel="noopener noreferrer">
-                        <i class='bx bxs-folder'></i>
-                        <h3>Tal genkendelse - AI</h3>
-                        <p class="resume">Vi fandt inspirationen til at starte vores introduktion til kunstig
-                            intelligens ved at læse Michael Nielsens onlinebog Neural Networks and Deep Learning. I
-                            denne bog gennemgår Nielsen de elementer og koncepter, som ligger til grund for kunstig
-                            intelligens. Vi valgte at starte med at udvikle en AI, der kan identificere tal, da dette
-                            ofte er en typisk indgangsvinkel til læring om kunstig intelligens.</p>
-                        <p class="teknologi">Python, Matplot, CNN & AI</p>
-                    </a>
-                </div>
-                <div class="opgave">
-                    <a href="https://github.com/w1setown/udlaanregistering-prototype" target="blank"
-                        rel="noopener noreferrer">
-                        <i class='bx bxs-folder'></i>
-                        <h3>Udlånsregistrering - Prototype</h3>
-                        <p class="resume">En prototype af et system til udlånsregistrering af skolens bærbare computere.
-                            Systemet skal kunne registrere både computere, mus og brugere. </p>
-                        <p class="teknologi">Vue.js & Vue Router, JavaScript, HTML/CSS, MySQL, PHP & XAMPP </p>
-                    </a>
-                </div>
-                <div class="opgave">
-                    <a href="https://github.com/w1setown/Case-FiveWordFiveLetters" target="blank"
-                        rel="noopener noreferrer">
-                        <i class='bx bxs-folder'></i>
-                        <h3>Case - FiveWordFiveLetters</h3>
-                        <p class="resume"> Et program der kan finde alle de ordkombinationer, hvor følgende er opfyldt:
-                            <ul class="projekt-liste">
-                                <li>Der skal være 5 ord</li>
-                                <li>Alle ord skal have 5 bogstaver</li>
-                                <li>Hvert bogstav må kun optræde 1 gang</li>
-                            </ul>
-                        </p>
-                        <p class="teknologi">Python, MySQL, XAMPP</p>
-                    </a>
-                </div>
+                <!-- Add more projects as needed -->
             </div>
         </section>
 
-        <section id="ERFARING" class="section">
+        <!-- Experience Section -->
+        <section id="EXPERIENCE" class="section">
             <div class="titel">
-                <h2>Erfaring</h2>
+                <h2>Experience</h2>
             </div>
             <div class="timeline-container">
                 <div class="timeline">
-                    <div class="timeline-item" onclick="toggleDetails('job-0')">
-                        <div class="timeline-marker current"></div>
-                        <div class="timeline-content">
-                            <h3>Syddansk Erhvervsskole</h3>
-                            <h4>Skole Oplæring</h4>
-                            <span class="timeline-date">Januar 2024 - Nuværende </span>
-                            <span class="timeline-location">Odense, Syddanmark, Danmark</span>
-                        </div>
-                        <div id="job-0" class="timeline-details">
-                            <p>Datateknikerelev med speciale i programmering. Lærer forskellige programmeringssprog og
-                                teknologier inklusiv Python, C#, HTML/CSS/JavaScript, PHP, og SQL.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-1')">
-                        <div class="timeline-marker current"></div>
-                        <div class="timeline-content">
-                            <h3>Flip The Burger Kolding</h3>
-                            <h4>Souschef</h4>
-                            <span class="timeline-date">August 2023 - Nuværende </span>
-                        </div>
-                        <div id="job-1" class="timeline-details">
-                            <p>Ansvarlig for køkkenledelse og koordinering af daglige aktiviteter. Træning af nye
-                                medarbejdere og sikring af kvalitetsstandarder.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-2')">
+                    <!-- Experience Template -->
+                    <div class="timeline-item" onclick="toggleDetails('job-template')">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3>Jørgen KRUUSE A/S</h3>
-                            <h4>Lagermedarbejder</h4>
-                            <span class="timeline-date">Juni 2023 - August 2023 (3 måneder)</span>
+                            <h3>[Company Name]</h3>
+                            <h4>[Position]</h4>
+                            <span class="timeline-date">[Start Date] - [End Date]</span>
+                            <span class="timeline-location">[Location]</span>
                         </div>
-                        <div id="job-2" class="timeline-details">
-                            <p>Lagerarbejde inklusiv varemodtagelse og forsendelse. Erfaring med lagerstyringssystemer.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-3')">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>Mulerposen</h3>
-                            <h4>Køkkenchef</h4>
-                            <span class="timeline-date">Januar 2023 - Marts 2023 (3 måneder)</span>
-                            <span class="timeline-location">Odense, Syddanmark, Danmark og Ringe</span>
-                        </div>
-                        <div id="job-3" class="timeline-details">
-                            <p>Ansvarlig for fødevaresikkerhed og madlavning.</p>
+                        <div id="job-template" class="timeline-details">
+                            <p>[Job Description]</p>
                         </div>
                     </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-4')">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>Juliana Drivhuse A/S</h3>
-                            <h4>Lagermedarbejder</h4>
-                            <span class="timeline-date">Marts 2022 - Oktober 2022 (8 måneder)</span>
-                            <span class="timeline-location">Odense, Syddanmark, Danmark</span>
-                        </div>
-                        <div id="job-4" class="timeline-details">
-                            <p>Håndtering af drivehuse og udstyr. Erfaring med specialiseret lagerlogistik inden for
-                                havebrugsindustrien.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-5')">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>UPS</h3>
-                            <h4>Mail Sorter</h4>
-                            <span class="timeline-date">Januar 2021 - Marts 2022 (1 år 3 måneder)</span>
-                            <span class="timeline-location">Vejle, Syddanmark, Danmark</span>
-                        </div>
-                        <div id="job-5" class="timeline-details">
-                            <p>Sortering og håndtering af post og pakker i et højhastighedsmiljø. Udover dette fik jeg
-                                træning i sikkerhed på en arbejdsplads.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-6')">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>UPS</h3>
-                            <h4>Mail Sorter</h4>
-                            <span class="timeline-date">Juni 2020 - September 2020 (4 måneder)</span>
-                            <span class="timeline-location">Vejle, Syddanmark, Danmark</span>
-                        </div>
-                        <div id="job-6" class="timeline-details">
-                            <p>Sæsonarbejde med postsortering og pakkebehandling. Første erfaring med logistikbranchen.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-7')">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>Rønninge Kirke</h3>
-                            <h4>Gravermedhjælper</h4>
-                            <span class="timeline-date">Juni 2019 - August 2019 (3 måneder)</span>
-                            <span class="timeline-location">Langeskov, Syddanmark, Danmark</span>
-                        </div>
-                        <div id="job-7" class="timeline-details">
-                            <p>Assistance med kirkegårdsvedligeholdelse og gravearbejde.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item" onclick="toggleDetails('job-8')">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3>SuperBrugsen</h3>
-                            <h4>Servicemedarbejder</h4>
-                            <span class="timeline-date">Juni 2014 - December 2016 (2 år 7 måneder)</span>
-                        </div>
-                        <div id="job-8" class="timeline-details">
-                            <p>Mit første rigtige job med kundeservice og detailhandel. Lærte grundlæggende arbejdsetik
-                                og kundekontakt.</p>
-                        </div>
-                    </div>
+                    <!-- Add more experiences as needed -->
                 </div>
             </div>
         </section>
 
-        <section id="EVNER" class="section">
+        <!-- Skills Section -->
+        <section id="SKILLS" class="section">
             <div class="titel">
-                <h2>Tekniske Evner</h2>
+                <h2>Technical Skills</h2>
             </div>
             <div class="evner">
+                <!-- Add your skill categories and items here -->
                 <div class="evner-column">
-                    <h4>Frameworks & Teknologier</h4>
+                    <h4>[Skill Category]</h4>
                     <ul>
-                        <li><i class="fab fa-vuejs"></i>Vue.js (Node.js)</li>
-                        <li><i class="fab fa-github"></i>Versionkontrol (GitHub)</li>
-                        <li><i class="fab fa-raspberry-pi"></i>Raspberry Pi</li>
-                        <li><i class="fab fa-linux"></i>WSL</li>
-                        <li><i class="fas fa-terminal"></i>BuildTools (Makefile)</li>
-                    </ul>
-                </div>
-                <div class="evner-column">
-                    <h4>Programmeringssprog</h4>
-                    <ul>
-                        <li><i class="fab fa-python"></i>Python</li>
-                        <li><i class="fa-solid fa-c"></i>C</li>
-                        <li><i class="fa-brands fa-windows"></i>C#</li>
-                        <li><i class="fa-solid fa-globe"></i>HTML, CSS & JS</li>
-                        <li><i class="fab fa-php"></i>PHP</li>
-                    </ul>
-                </div>
-                <div class="evner-column">
-                    <h4>Andet</h4>
-                    <ul>
-                        <li><i class="fas fa-brain"></i>Kunstig Intelligens</li>
-                        <li><i class="fas fa-desktop"></i>Operativ Systemer</li>
-                        <li><i class="fas fa-microchip"></i>Computer Hardware</li>
-                        <li><i class="fas fa-code"></i>Full-Stack Udvikling</li>
-                        <li><i class="fas fa-cogs"></i>Software Udvikling</li>
+                        <li><i class="[ICON-CLASS]"></i>[Skill Name]</li>
+                        <!-- Add more skills -->
                     </ul>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer with Social Links -->
     <footer>
         <div class="kontakt">
-            <a href="https://www.linkedin.com/in/gabrielganderup/" target="blank" rel="noopener noreferrer">
+            <!-- Update with your social links -->
+            <a href="[YOUR-LINKEDIN-URL]" target="blank" rel="noopener noreferrer">
                 <i class='bx bxl-linkedin-square'></i>
             </a>
-            <a href="https://github.com/w1setown" target="_blank" rel="noopener noreferrer">
+            <a href="[YOUR-GITHUB-URL]" target="_blank" rel="noopener noreferrer">
                 <i class='bx bxl-github'></i>
             </a>
-            <a href="mailto:gabrielsogaard@gmail.com">
+            <a href="mailto:[YOUR-EMAIL]">
                 <i class='bx bxs-envelope'></i>
             </a>
-            <a href="https://stackoverflow.com/users/23446832/wisetown" target="_blank" rel="noopener noreferrer">
-                <i class='bx bxl-stack-overflow'></i>
-            </a>
+            <!-- Add more social links as needed -->
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="assets/scripts/timeline.js"></script>
     <script src="assets/scripts/script.js"></script>
-
 </body>
-
 </html>
