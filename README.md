@@ -12,7 +12,7 @@ A clean, responsive portfolio website template built with HTML, CSS, and JavaScr
 
 ### Mobile View
 ![Mobile View](CAN_BE_DELETED/mobile_view.gif)
-*Mobile responsiveness and navigation demonstration*
+<br>*Mobile responsiveness and navigation demonstration*
 
 ## Features
 - Responsive design that works on both desktop and mobile
