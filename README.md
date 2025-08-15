@@ -77,5 +77,5 @@ portfolio-website/
 ```
 
 ## Credits
-Original template by [Your Name]
+Original template by Gabriel Visby Søgaard Ganderup
 Feel free to use and modify for your own portfolio!
