@@ -3,14 +3,16 @@
 A clean, responsive portfolio website template built with HTML, CSS, and JavaScript.
 
 ## Live Demo
-🔗 [View Live Website](https://your-portfolio-url.com)
+🔗 [View Live Website](https://gaga01.skp-dp.sde.dk/)
 
 ## Preview
-![Desktop View](assets/images/desktop-preview.png)
-*Desktop View of the Portfolio*
+### Desktop View
+![Desktop View](CAN_BE_DELETED/desktop_view.gif)
+*Desktop navigation and features demonstration*
 
-![Mobile View](assets/images/mobile-preview.png)
-*Mobile View of the Portfolio*
+### Mobile View
+![Mobile View](CAN_BE_DELETED/mobile_view.gif)
+*Mobile responsiveness and navigation demonstration*
 
 ## Features
 - Responsive design that works on both desktop and mobile
