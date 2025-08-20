@@ -21,7 +21,6 @@ A clean, responsive portfolio website template built with HTML, CSS, and JavaScr
 - Skills showcase with icons
 - Project showcase
 - Social media links
-- Dark/light mode support
 
 ## Getting Started
 
